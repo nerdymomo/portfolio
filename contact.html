@@ -1,0 +1,67 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Delicious+Handrawn&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <title>Contact us</title>
+    </head>
+    <body>
+        <!-- form does not redirect or processes any data -->
+        <nav>
+            <div class="logo"><a href="home.html">Mohamed Hamza</a></div>
+            <div class="navbar-links">
+                <ul>
+                    <li class="nav-link"><a href="projects.html">Projects</a></li>
+                    <li class="nav-link"><a href="about.html">About</a></li>
+                    <li class="nav-link"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container contact-banner">
+            <h1 class="contact-header">Let's talk business 🤝</h1>
+            <p class="contact-paragraph">
+                You can fill in this form so we can have a little chat and see how we can build something great together 🧑‍💻
+            </p>
+        </div>
+
+        <div class="container">
+            <form action="/form-handling-url" method="post">
+                <fieldset>
+                    <div class="personal-info">
+                        <label for="first-name">First name:</label>
+                        <input type="text" name="first-name" id="first-name" required>
+
+                        <label for="last-name">Last name:</label>
+                        <input type="text" name="last-name" id="last-name" required>
+                    </div>
+
+                    <div class="contact-info">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+
+                        <label for="phone-number">Phone number:</label>
+                        <input type="number" name="phone-number" id="phone-number" required>
+                    </div>
+
+                    <div class="details">
+                        <label for="details">Got some details? Put them here</label>
+                        <textarea name="details" id="details" cols="50" rows="5"></textarea>
+                    </div>
+
+                    <div class="submit">
+                        <input type="checkbox" id="email-list" value="email-list-agree">
+                        <label for="email-list">Would you agree to be added to our mailing list? Don't worry. We won't spam you</label>
+                    </div>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
