@@ -10,4 +10,4 @@ You'll see that i've used some transitions and transforms on cards and buttons (
 **ionic icons** used for icons on this project instead of bootstrap icons or font awesome.</br>
 **Google fonts** used to fetch fonts instead of including them locally </br>
 
-The project is large compared to the actual content because of git history which i don't want to delete. You'll see it all as is. The good, bad and everything in between.
+Though this is simple for most people, i'm proud of this and it turned out to be a rewarding experience.
